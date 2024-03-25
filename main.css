@@ -223,7 +223,9 @@ body{
 
 
 @media (max-width:480px) {
-
+    @font-face {
+        font-family: Chopin;
+        src: url(Fonts/Chopin-Light.ttf);}
     .header{
         height: fit-content;
         background-color: white;
