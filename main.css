@@ -286,8 +286,8 @@ body{
     }
     .TopMenu{
         font-family: montserrat;
-        font-weight: 250;
-        font-size: 2vw;
+        font-weight: 350;
+        font-size: 2.4vw;
         color: black;
         position:absolute;
         display: flex;
