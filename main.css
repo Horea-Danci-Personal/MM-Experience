@@ -222,7 +222,7 @@ body{
 
 
 
-@media (max-width:480px) {
+@media (max-width:430px) {
     @font-face {
         font-family: Chopin;
         src: url(Fonts/Chopin-Light.ttf);}
@@ -245,7 +245,7 @@ body{
         padding-top: 0%;
         padding-left: 1%;
         width: fit-content;
-        position:relative;
+        
         left: 3%;
     }
     .TopMenu{
@@ -262,6 +262,7 @@ body{
     .TopMenu l a{
         color: black;
         text-decoration: none;
+        font-size: 0.8em;
     }
     .PozaLogo{
         display: flex;
@@ -333,7 +334,7 @@ body{
         position:absolute;
         height: fit-content;
         width: 100%;
-        top:90%;
+        top:110%;
         justify-content: space-around;
         align-items: center;
     }
@@ -346,6 +347,7 @@ body{
         font-family: Chopin;
         width: 80%;
         text-align: center;
+        
     }
     .Text_Traditie h{
         font-size: 2.3em;
@@ -361,7 +363,7 @@ body{
         position:absolute;
         height: fit-content;
         width: 100%;
-        top:160%;
+        top:190%;
         align-items: center;
         justify-content: center;
     }
@@ -395,7 +397,7 @@ body{
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 250%;
+        top: 270%;
         padding-top: 1%;
     }
     .text_footer{
