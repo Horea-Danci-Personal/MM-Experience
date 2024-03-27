@@ -265,7 +265,7 @@ body{
     .TopMenu l a{
         color: black;
         text-decoration: none;
-        font-size:8px;
+        font-size: 0.7em;
         
     }
     .PozaLogo{
@@ -308,6 +308,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         font-weight: 100;
         font-size: 0.8em;
         position: absolute;
