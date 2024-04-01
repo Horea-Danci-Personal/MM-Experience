@@ -138,6 +138,32 @@ form button:hover{
         border-radius: 10px;
         cursor: pointer;
     }
+    .titlu_contact2{
+        font-family: Chopin;
+        font-size: 2em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:140%;
+    }
+    .linie_contact{
+        padding-top: 1px;
+        position: absolute;
+        width: 10%;
+        background-color: rgba(0, 0, 0, 0.358);
+        top:120%;
+    }
+    .metode_contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        font-family: Chopin;
+        top:150%;
+        
+    }
     .Footer_contact{
         font-family: Chopin;
         display: flex;
@@ -148,7 +174,7 @@ form button:hover{
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 150%;
+        top: 170%;
         padding-top: 1%;
     }
     .text_footer{

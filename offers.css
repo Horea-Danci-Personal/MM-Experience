@@ -166,7 +166,7 @@
         width: 90%;
         position: absolute;
         align-items: center;
-        top:20%;
+        top:30%;
         background-color: white;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -183,7 +183,7 @@
     }
     .text_poza{
         font-family: Chopin;
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight:950;
         position: absolute;
         width: fit-content;
@@ -212,7 +212,7 @@
         width: 1px;
         width: 60%;
         background-color: rgba(0, 0, 0, 0.358);
-        top:100%;
+        top:130%;
     }
     .food{
         display: flex;
@@ -221,8 +221,8 @@
         position: absolute;
         align-items: center;
         justify-content: space-evenly;
-        top:110%;
-        height: 50%;
+        top:140%;
+        height: 65%;
         background-color: white;
         border-radius: 15px;
     }
@@ -272,7 +272,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 170%;
+        top: 220%;
         padding-top: 1%;
     }
     .text_footer{
