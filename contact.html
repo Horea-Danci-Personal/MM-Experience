@@ -5,6 +5,10 @@
     <link rel="shortcut icon" href="Poze /favICON.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maramures Experience</title>
@@ -48,15 +52,34 @@
 </div>
 
 <div class="container">
-    <form action="https://formsubmit.co/horeadanci@yahoo.com" method="POST" >
+    <form action="https://formsubmit.co/travelshiza@gmail.com" method="POST">
         <input type="hidden" name="_template" value="box">
         <input type="text" name="Name" placeholder="Your name" required>
         <input type="email" name="Email" placeholder="Email adress" required>
         <input type="text" name="Number" placeholder="Phone number" required>
-        <input type="text" name="Data_intrare" placeholder="Select arrival date" onfocus="this.type='date'" onblur="this.type='text'" required>
-        <input type="text" name="Data_plecare" placeholder="Select departure date" onfocus="this.type='date'" onblur="this.type='text'" required>
+        <input type="text" name="datefilter" placeholder="When would you like to visit us?" value="" />
         <textarea type="text" name="message" placeholder="What can we help you with?" rows="4" required></textarea>
         <div class="buton"><button type="submit">See you soon!</button></div>
+        <script type="text/javascript">
+            $(function() {
+            
+              $('input[name="datefilter"]').daterangepicker({
+                  autoUpdateInput: false,
+                  locale: {
+                      cancelLabel: 'Clear'
+                  }
+              });
+            
+              $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+                  $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+              });
+            
+              $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+                  $(this).val('');
+              });
+            
+            });
+            </script>
     </form>
     <div class="linie_contact"> </div>
 </div>
