@@ -120,7 +120,7 @@
         
     }
     .Titlu_galerie{
-        font-family: Chopin;
+        font-family: montserrat;
         font-size: 1.8em;
         font-weight: bold;
         display: none;
@@ -149,7 +149,7 @@
         cursor: pointer;
     }
     .Footer_galerie{
-        font-family: Chopin;
+        font-family: montserrat;
         display: flex;
         flex-direction: column;
         width: 100%;

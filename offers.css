@@ -174,7 +174,7 @@
         display: flex;
         position: absolute;
         width: fit-content;
-        font-family: Chopin;
+        font-family: montserrat;
         font-size: 1.8em;
         top:10%;
     }
@@ -202,7 +202,7 @@
         
     }
     .text_poza{
-        font-family: Chopin;
+        font-family: montserrat;
         font-size: 2em;
         font-weight:950;
         position: absolute;
@@ -218,7 +218,7 @@
         background-color: rgba(0, 0, 0, 0.353);
     }
     .text_acc{
-        font-family: Chopin;
+        font-family: montserrat;
         font-size: 0.5em;
         width: 80%;
         text-align: justify;
@@ -273,7 +273,7 @@
         
     }
     .text_poza_food{
-        font-family: Chopin;
+        font-family: montserrat;
         font-size: 2.5em;
         font-weight:990;
         position: absolute;
@@ -283,7 +283,7 @@
         
     }
     .Footer_offers{
-        font-family: Chopin;
+        font-family: montserrat;
         display: flex;
         flex-direction: column;
         width: 100%;
