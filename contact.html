@@ -52,29 +52,28 @@
 </div>
 
 <div class="container">
-    <form action="https://formsubmit.co/travelshiza@gmail.com" method="POST">
-        <input type="hidden" name="_template" value="box">
-        <input type="text" name="Name" placeholder="Your name" required>
+    <form action="https://formspree.io/f/xbjnzeaq" method="POST">
+        <input type="text" name="Nume" placeholder="Your name" required>
         <input type="email" name="Email" placeholder="Email adress" required>
-        <input type="text" name="Number" placeholder="Phone number" required>
-        <input type="text" name="datefilter" placeholder="When would you like to visit us?" value="" />
-        <textarea type="text" name="message" placeholder="What can we help you with?" rows="4" required></textarea>
+        <input type="text" name="Numar-telefon" placeholder="Phone number" required>
+        <input type="text" name="Data-rezervare" placeholder="When would you like to visit us?" value="" />
+        <textarea type="text" name="Mesaj" placeholder="What can we help you with?" rows="4" required></textarea>
         <div class="buton"><button type="submit">See you soon!</button></div>
         <script type="text/javascript">
             $(function() {
             
-              $('input[name="datefilter"]').daterangepicker({
+              $('input[name="Data-rezervare"]').daterangepicker({
                   autoUpdateInput: false,
                   locale: {
                       cancelLabel: 'Clear'
                   }
               });
             
-              $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $('input[name="Data-rezervare"]').on('apply.daterangepicker', function(ev, picker) {
                   $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
               });
             
-              $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $('input[name="Data-rezervare"]').on('cancel.daterangepicker', function(ev, picker) {
                   $(this).val('');
               });
             
