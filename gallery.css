@@ -90,6 +90,26 @@
 }
 
 @media (max-width:480px) {
+    .montserrat{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        
+      }
+      .TopMenu{
+        font-family: montserrat;
+        font-size: 1vw;
+        color: black;
+        position:absolute;
+        display: flex;
+        width:fit-content;
+    }
+    .TopMenu l a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.9em;
+        
+    }
     .header{
         height: fit-content;
         background-color: white;
