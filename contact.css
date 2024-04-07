@@ -162,19 +162,20 @@ form button:hover{
     }
     .titlu_contact2{
         font-family: montserrat;
+        text-align: center;
         font-size: 2em;
         width: 100%;
         display: flex;
         justify-content: center;
         position: absolute;
-        top:140%;
+        top:135%;
     }
     .linie_contact{
         padding-top: 1px;
         position: absolute;
         width: 10%;
         background-color: rgba(0, 0, 0, 0.358);
-        top:120%;
+        top:115%;
     }
     .metode_contact{
         display: flex;
@@ -182,7 +183,7 @@ form button:hover{
         justify-content: center;
         width: 100%;
         position: absolute;
-        font-family: montserrat;
+        font: montserrat;
         top:150%;
         
     }

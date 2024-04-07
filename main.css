@@ -275,12 +275,13 @@ body{
         left: 1%;
     }
     .TextPoza{
-        font-family: montserrat;
-        color: white;
+font:  montserrat;        
+color: white;
         width: fit-content;
         display: flex;
         position: absolute;
         font-size: 4vw;
+        font-weight: lighter;
         top:8%;
     }
     .TopMenu{

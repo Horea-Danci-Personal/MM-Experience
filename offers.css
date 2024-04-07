@@ -202,9 +202,9 @@
         
     }
     .text_poza{
-        font-family: montserrat;
+        font: montserrat;
         font-size: 2em;
-        font-weight:950;
+        
         position: absolute;
         width: fit-content;
         color: rgb(255, 255, 255);
@@ -218,7 +218,7 @@
         background-color: rgba(0, 0, 0, 0.353);
     }
     .text_acc{
-        font-family: montserrat;
+        font: montserrat;
         font-size: 0.5em;
         width: 80%;
         text-align: justify;
@@ -273,7 +273,7 @@
         
     }
     .text_poza_food{
-        font-family: montserrat;
+        font: montserrat;
         font-size: 2.5em;
         font-weight:990;
         position: absolute;
