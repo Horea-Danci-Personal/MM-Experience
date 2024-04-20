@@ -151,14 +151,16 @@ form button:hover{
         flex-direction: column;
         padding: 2vw 4vw;
         width: 80%;
+        
         border-radius: 20px;
     }
     form button{
         width: 40%;
         padding: 6px;
-        background-color: white;
+        background-color: rgb(255, 0, 0);
         border-radius: 10px;
         cursor: pointer;
+        
     }
     .titlu_contact2{
         font-family: montserrat;
