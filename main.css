@@ -224,7 +224,7 @@ body{
 
 @media (max-width:430px) {
     .turnDeviceNotification {
-        background-image:url('../images/mobile_rotate.jpeg');
+        background-image:url('../poze/mobile_rotate.jpeg');
         background-size:cover;
       }
     .turnDeviceNotification {
